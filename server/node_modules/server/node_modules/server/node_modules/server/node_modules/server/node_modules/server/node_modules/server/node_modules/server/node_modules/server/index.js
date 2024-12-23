@@ -22,8 +22,7 @@ async function start() {
     try {
 
         const connectionpOptions = {
-            dbName: `${DB_NAME}`,
-            useUnifiedTopology: true,
+            dbName: `${DB_NAME}`
 
         }
         await mongoose.connect(`mongodb://${DB_USER}:${DB_PASSWORD}@${DB_SERVER}:27017`, connectionpOptions)
