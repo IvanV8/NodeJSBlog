@@ -1,4 +1,4 @@
-import { Layout}  from "./components/Layout.jsx";
+import { Layout } from "./components/Layout.jsx";
 import { Routes, Route } from "react-router-dom";
 import MainPage from "./pages/MainPage.jsx";
 import PostsPage from "./pages/PostsPage.jsx";
@@ -10,6 +10,9 @@ import EditPostPage from "./pages/EditPostPage.jsx";
 
 function App() {
   return (
+   /* <div className="text-3xl text-red-600">TEXT</div>*/
+
+    
     <Layout>
       <Routes>
         <Route path="/" element={<MainPage />} />
